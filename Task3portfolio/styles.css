@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+.start{
+    height: 100vh;
+    width: 100%;
+    background-color:#40128B;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.Portfolio{
+    color: aliceblue;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: cornsilk;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+.content{
+    position:absolute;
+    top: 40%;
+    left: 7%;
+   
+}
+
+h1{
+    color: beige;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 75px;
+}
+
+h3{
+    color:blanchedalmond;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+h4{
+    color: rgb(255, 1, 1);
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.email form{
+width: 400px;
+position:relative;
+}
+.email form input:first-child{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    outline: navajowhite;
+    border-radius: 30px;
+    padding-left: 5px;
+
+}
+.email form input:last-child{
+    position: absolute;
+    border: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+.email form input:last-child:hover{
+box-shadow:-2px -2px 5px black ;
+}
+
+.About{
+    width: 100%;
+    padding: 100px;
+    background-color:#9336B4;
+    display: inline-block;
+}
+ .About img{
+    height: auto;
+    width: 430px;
+ }
+ .About .text{
+    width: 550px;
+ }
+
+ .main{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+.mainabout{
+    display: inline-block;
+}
+.text{
+    position: absolute;
+    top: 1000px;
+    left: 1000px;
+}
+.text h2{
+    color: wheat;
+    font-size: 100px;
+}
+h5{
+    font-size: 30px;
+}
+.text button{
+    border-radius: 50px;
+    width: 100px;
+    color: aliceblue;
+    background-color: red;
+    box-shadow: 8px 8px 5px black;
+    cursor: pointer;
+
+}
+.text button:hover{
+    box-shadow: -8px -8px 5px black;
+}
+/* skills */
+.Skills{
+    background-color:#f35ade;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: wheat;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 330px;
+    padding: 20px 35px;
+    background:#a872ff ;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+}
+.card:hover{
+    box-shadow: 30px 30px 20px black;
+}
+
+.card .button{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: .3s;
+    border-radius: 30px;
+    padding: 0px 30px;
+    margin-top: 100px;
+}
+.card .button:hover{
+background-color: black;
+outline-color: red;
+outline-width: 3px;
+}
+
+.Projects{
+    background-color:#FFE79B;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(255, 0, 0);
+}
+
+.resume{
+    background-color:purple;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.resume h2{
+    color: wheat;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.resume .button1{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    display: inline;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background-color: red;
+
+}
+.resume .button1:hover{
+    background-color: transparent;
+
+}
+
+.contact{
+    background-color:purple;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+.contact p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    margin-top: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    display: inline;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    position: relative;
+    left:900px;
+    bottom: 0.1px;
+}
+.contact a:hover{
+    background-color: transparent;
+}
+.Connect{
+    color: wheat;
+    padding-left: 20px;
+
+}
+.Connect h3{
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #34495e; 
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-address {
+    text-align: left;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
+footer .footer-address p a{
+    color: blue;
+}
